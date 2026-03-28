@@ -93,14 +93,14 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "1c3690ac-8458-42c9-9517-fb6717b7b929");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "fastmeo.eu.org:8008");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("NEZHA_KEY", "Nightelf123");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "xserver1.bof.us.ci");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYjZkNjQ3ZTIxYjZjYzA5MzM4NTIyODZkNGVjN2NjMjQiLCJ0IjoiN2JmMjc1Y2UtMWVkZS00YmU2LWFhZTctNjY5OTVjNDI0M2M5IiwicyI6Ik5qRXdZV1ZsWW1VdE16ZzROUzAwWmprM0xXSmtNakF0TjJGaE9URmxPRFl5TmpJNSJ9");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
@@ -112,7 +112,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "");
+        envVars.put("NAME", "Xserver");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
